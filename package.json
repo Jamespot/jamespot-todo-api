@@ -1,0 +1,47 @@
+{
+    "name": "jamespot-todo-api",
+    "version": "1.0.0",
+    "description": "Todo fake api and socket",
+    "main": "dist/cjs.js",
+    "module": "dist/esm.js",
+    "types": "dist/types.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -c -w",
+        "format": "prettier --write --plugin-search-dir=. .",
+        "lint": "eslint --ignore-path .gitignore .",
+        "test": "jest",
+        "test:one": "jest --coverage=0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Jamespot/jamespot-todo-api.git"
+    },
+    "keywords": [
+        "typescript",
+        "jamespot",
+        "api",
+        "todo"
+    ],
+    "author": "Jamespot",
+    "devDependencies": {
+        "@changesets/cli": "^2.24.3",
+        "@rollup/plugin-commonjs": "^22.0.2",
+        "@rollup/plugin-typescript": "^8.3.3",
+        "@types/jest": "^28.1.4",
+        "@typescript-eslint/eslint-plugin": "^5.30.5",
+        "@typescript-eslint/parser": "^5.30.5",
+        "eslint": "^8.19.0",
+        "eslint-config-prettier": "^8.5.0",
+        "jest": "^28.1.2",
+        "jest-environment-jsdom": "^29.0.1",
+        "prettier": "^2.7.1",
+        "rollup": "^2.75.7",
+        "rollup-plugin-dts": "^4.2.2",
+        "ts-jest": "^28.0.5",
+        "tslib": "^2.4.0",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+    }
+}

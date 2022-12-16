@@ -1,0 +1,12 @@
+.changeset
+.github
+.eslintignore
+.eslintrc.cjs
+.gitignore
+.npmignore
+.prettierignore
+.prettierrc
+jest.config.cjs
+coverage
+src
+rollup.config.js
